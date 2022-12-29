@@ -179,7 +179,6 @@ rare.U2F <- pick.U2F[which(pick.U2F$mean.abundance < 0.001),]
 rare.U3B <- pick.U3B[which(pick.U3B$mean.abundance < 0.001),]
 rare.U3F <- pick.U3F[which(pick.U3F$mean.abundance < 0.001),]
 
-# 加标签，得到分类的OT表
 type.abundant.D1B <- cbind.data.frame(rownames(abundant.D1B),rep("abundant", nrow(abundant.D1B)))
 type.abundant.D1F <- cbind.data.frame(rownames(abundant.D1F),rep("abundant", nrow(abundant.D1F)))
 type.abundant.D2B <- cbind.data.frame(rownames(abundant.D2B),rep("abundant", nrow(abundant.D2B)))
